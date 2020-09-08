@@ -5,7 +5,7 @@ import { MenuContext } from './menu';
 import Icon from '../Icon/icon';
 import Transition from '../Transition/transition'
 
-interface SubMenuProps {
+export interface SubMenuProps {
   index?: string;
   title: string;
   className?: string
